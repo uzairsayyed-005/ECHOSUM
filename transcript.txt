@@ -1,0 +1,23 @@
+Speaker 2 [0.00-10.48]: a reactionary This is trying to think about it more in a proactive way So like as an example, I'll give a horrible example, but when I worked at Amazon tags originally when Amazon was
+Speaker 0 [10.48-40.88]: created tags were they were expecting them to just label certain instances and that was it And it turns out that all customers started using like 20 and 30 or 50 tags and they're like, what the heck is going on And they realized tags were being used to basically share environmental information so the VMs could they could put the same drop a code on two different VMs and they could behave differently based on the tag, which was a total novel way for customers to use it So then they had the basically limit the number of tags they could use because it wasn't scaling with the system effectively So like this is kind of another example where like I think we got
+Speaker 2 [40.88-46.00]: to start thinking in terms of you know like when we create something new a new feature of
+Speaker 0 [46.00-55.60]: piece of functionality like what's the cost associated with that right because like it does cost something internal and I'm not asking product managers to necessarily think in terms of the exact
+Speaker 2 [55.60-59.84]: bytes but I am turning to think in terms of like you know what are the expectations around it
+Speaker 0 [59.84-65.36]: because like as an example if we went back and looked at G-Unit tests and reporting you know if we
+Speaker 2 [65.36-76.00]: said unlimited that's you know that's a tough engineering call right particularly I guess it's free right now for customers so this is my understanding we also don't have a number of reposmiring
+Speaker 0 [76.00-97.76]: we don't have a limit on that and that that seems dangerous Yeah so I guess I would comment you know I think the product team is expected to prioritize all things and to understand them deeply whether they're a security issue or performance concern I think what you're highlighting is in order to be proactive I don't know if the product team would immediately know the
+Speaker 2 [98.48-102.00]: impact of a proposed change but maybe that's an opportunity for our
+Speaker 0 [103.20-109.36]: club infrastructure or SRE stable counterparts to be involved in vetting and looking at issues
+Speaker 2 [109.36-114.40]: early in the pipeline to decide whether or not they would Yeah or or let's say we're implementing
+Speaker 0 [114.40-122.48]: a feature like let's say we were implementing mirroring from scratch like the first question we should be asking is is like how many how many mirrors is a customer expected to be able to support
+Speaker 2 [122.48-127.12]: and what I want to start charging for if they get above a certain limit and you know and right now we
+Speaker 0 [127.12-137.92]: don't and you could argue that scaling is just a much a reason for customers to start paying us as feature sets that's that's that's that's kind of the argument I would do
+Speaker 2 [139.60-143.96]: Because those things cost money like whether we like to admit it or not
+Speaker 1 [143.96-192.09]: Yeah Christopher I would I would agree with you on what you're trying to sort of shape up and call out here in the sense of you know going through pages for example the performance of getting those page loads loaded is not great and I don't know if we set out originally to track some of those performance things but I think that performance and into your point Kenny I think performance should be somewhere incorporated as we move forward and something we should be thinking about for scalability across the board because it's just as important as bringing forth that really cool thing to them is that that really cool thing works and people will stay there to use it
+Speaker 0 [192.09-201.04]: I think just as a cycle I think we have something the product and book that I read like a couple days ago on performance something
+Speaker 2 [201.04-207.60]: like fast applications are like always you know like more usable and I think that's that's
+Speaker 0 [207.60-214.80]: definitely important and I also think that GitLab com is massive I think we have 4 million users and for
+Speaker 2 [214.80-220.80]: example for Geo I know that only by actually like interacting with the infrastructure we are
+Speaker 0 [220.80-226.00]: getting feedback on some of the performance bottlenecks that we are just not seeing otherwise right
+Speaker 2 [226.00-233.76]: and so I think that's actually also really valuable and in that regard maybe also like again you know
+Speaker 0 [233.76-241.52]: dog fooding these things helps and I think with the combination of CD we we may hit a lot of those things at the moment.
