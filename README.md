@@ -47,8 +47,4 @@ Instant, speaker-aware meeting summaries, action extraction, and traceability â€
 - For private meetings, prefer Whisper (onâ€‘prem) path to keep audio local.  
 - Cloud STT path available for lower infrastructure overhead.
 
-## Contributing
-- Open issues/PRs for improvements. Keep changes small and add tests for pipeline logic.
 
-## License
-- Add your preferred license file (e.g., MIT) to this repo.
